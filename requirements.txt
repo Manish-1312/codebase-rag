@@ -1,0 +1,29 @@
+# ── LLM & Agent ──────────────────────────────────────────────
+openai
+langchain
+langchain-openai
+langgraph
+langsmith
+
+# ── AST Chunking ─────────────────────────────────────────────
+tree-sitter>=0.22
+tree-sitter-python
+tree-sitter-javascript
+
+# ── Vector DB ────────────────────────────────────────────────
+qdrant-client
+
+# ── API Server ───────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+
+# ── GitHub Integration ───────────────────────────────────────
+PyGithub
+gitpython
+
+# ── Utilities ────────────────────────────────────────────────
+python-dotenv
+pydantic>=2.10
+pydantic-settings>=2.5
+httpx
+tenacity
